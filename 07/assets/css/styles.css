@@ -1,4 +1,55 @@
+
 .ajustar{
     width: 70%;
     margin: 0 auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin-left: 200px;
+}
+
+.container-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.img-info{
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+body{
+    background-color: orange;
+}
+
+
+h1{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.btn-volver{
+    display: flex;
+    justify-content: start;
+    background-color: cyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    padding: 10px 23px 10px 23px;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: .3rem;
+    margin: 30px;
 }
